@@ -1,0 +1,35 @@
+@import './variables.scss';
+html,body{
+  height: 100%;
+  width: 100%;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+#app {
+  height: 100%;
+  width: 100%;
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+
+}
+.wrap-plr18{
+  padding: 0 18px;
+}
+.wrap-bgback{
+  margin-left: -18px;
+  margin-right: -18px;
+  padding: 0 18px;
+}
+
+.nag
+
+.divider{
+  height: 10px;
+  margin: 0 -18px;
+  background-color: $content-bgColor;
+}
